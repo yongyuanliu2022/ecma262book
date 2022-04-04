@@ -1,6 +1,6 @@
-# electron-quick-start
+# ECMA-262 Book
 
-**Clone and run for a quick way to see Electron in action.**
+**ECMA-262, the ECMAScript® Language Specification.**
 
 This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start) within the Electron documentation.
 
@@ -18,24 +18,27 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/yongyuanliu2022/ecma262book.git
 # Go into the repository
-cd electron-quick-start
+cd ecma262book
 # Install dependencies
 npm install
 # Run the app
 npm start
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+## To Build
 
-## Resources for Learning Electron
+```bash
+# forge
+npx electron-forge import
+# make
+npm run make
+```
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
+## ECMA-262
 
-## License
-
-[CC0 1.0 (Public Domain)](LICENSE.md)
+```bash
+# Clone this repository
+git clone https://github.com/tc39/ecma262
+```
